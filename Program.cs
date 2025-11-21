@@ -25,6 +25,10 @@
             Console.WriteLine("\n--- Эксперимент 2: Цена Боксинга ---");
             PerformanceTests.RunBoxingTest();
             Console.WriteLine("----------------------------------------");
+
+            Console.WriteLine("\n--- Эксперимент 3: Засоряем Large Object Heap ---");
+            LargeObjectHeapTests.RunLohSpamTest();
+            Console.WriteLine("----------------------------------------");
         }
     }
 }
